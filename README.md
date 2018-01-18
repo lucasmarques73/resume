@@ -23,7 +23,7 @@ Desenvolvedor e instrutor PHP, formado em Sistemas de Informção, trabalhando c
 ## Habilidades
 
 * HTML
-* CSS(Bootstrap)
+* CSS(Bootstrap, Materialize)
 * Javascript (Angular, Ajax, jQuery)
 * PHP (Orientação a Objetos, Laravel)
 * SQL (MySQL, PostgreSQL)

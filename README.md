@@ -20,6 +20,16 @@ Desenvolvedor e instrutor PHP, formado em Sistemas de Informção, trabalhando c
 * Sistemas de Informação - [UEMG Campus Passos/MG](http://www.uemg.br/cursos.php?id=140) - 2013-2016
 * Técnico em Informática - IFSuldeMinas Campus Passos/MG - 2011
 
+## Habilidades
+
+* HTML
+* CSS(Bootstrap)
+* Javascript (Angular, Ajax, jQuery)
+* PHP (Orientação a Objetos, Laravel)
+* SQL (MySQL, PostgreSQL)
+* GIT
+
+
 ## Experiência Profissional
 
 **Desenvolvedor e Instrutor PHP** - [4Linux](https://www.4linux.com.br/) - Setembro 2017 - Presente

@@ -12,8 +12,8 @@
 
 **LinkedIn:** [lucasmarques73](https://www.linkedin.com/in/lucasmarques73/)
 
-## Sobre mim
-Desenvolvedor e instrutor PHP, 
+<!-- ## Sobre mim
+Desenvolvedor e instrutor PHP, formado em Sistemas de Informção, trabalhando com desenvolvimento há cerca de 3 anos. Sempre tentando se manter atualizado sobre novas tecnologias. -->
 
 ## Formação Acadêmica
 

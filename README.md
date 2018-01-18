@@ -8,7 +8,7 @@
 
 **Skype:** lucas.marques73
 
-**Github** [lucasmarques73](https://github.com/lucasmarques73) || [lucasmarques4linux](https://github.com/lucasmarques4linux)
+**Github:** [lucasmarques73](https://github.com/lucasmarques73) || [lucasmarques4linux](https://github.com/lucasmarques4linux)
 
 **LinkedIn:** [lucasmarques73](https://www.linkedin.com/in/lucasmarques73/)
 

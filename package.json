@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "to-html": "markdown README.md -o index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "lucas@lucasmarques73.com.br:/home/lucas/resume.git"
+  },
+  "keywords": [],
+  "author": "Lucas Marques <lucasmarques73@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^0.15.0-rc.8",
+    "markdown-html": "0.0.8"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run to-html"
+    }
+  }
+}

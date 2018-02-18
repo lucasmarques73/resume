@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "to-html": "markdown README.md -o index.html"
+    "to-html": "markdown-html README.md -o index.html"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run to-html"
+      "pre-commit": "npm run to-html && git add --all"
     }
   }
 }

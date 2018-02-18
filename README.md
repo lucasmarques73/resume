@@ -1,8 +1,5 @@
 # Lucas César Marques
 
-teste hoook
-teste hoook
-
 **Localização:** São Paulo - São Paulo
 
 **Telefone:** (35) 99257-6040

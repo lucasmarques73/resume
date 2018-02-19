@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "to-html": "markdown-html README.md -o index.html"
+    "to-html": "markdown-html README.md -o index.html",
+    "to-pdf": "mdpdf README.md"
   },
   "repository": {
     "type": "git",
@@ -16,11 +17,12 @@
   "license": "MIT",
   "devDependencies": {
     "husky": "^0.15.0-rc.8",
-    "markdown-html": "0.0.8"
+    "markdown-html": "0.0.8",
+    "mdpdf": "^1.6.0"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run to-html && git add --all"
+      "pre-commit": "npm run to-html && npm run to-pdf && git add --all"
     }
   }
 }

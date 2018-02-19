@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "to-html": "markdown-html README.md -o index.html",
-    "to-pdf": "mdpdf README.md"
+    "to-pdf": "mdpdf README.md",
+    "build": "npm run to-html && npm run to-pdf "
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run to-html && npm run to-pdf && git add --all"
+      "pre-commit": "npm run build && git add --all"
     }
   }
 }

@@ -1,21 +1,16 @@
 # Lucas César Marques
 
-**Localização:** São Paulo - São Paulo
-
-**Telefone:** (35) 99257-6040
-
-**Email:** lucasmarques73@hotmail.com
-
-**Skype:** lucas.marques73
-
-**Github:** [lucasmarques73](https://github.com/lucasmarques73) || [lucasmarques4linux](https://github.com/lucasmarques4linux)
-
+**Localização:** São Paulo - São Paulo  
+**Telefone:** (35) 99257-6040  
+**Email:** lucasmarques73@hotmail.com  
+**Skype:** lucas.marques73  
+**Github:** [lucasmarques73](https://github.com/lucasmarques73) || [lucasmarques4linux](https://github.com/lucasmarques4linux)  
 **LinkedIn:** [lucasmarques73](https://www.linkedin.com/in/lucasmarques73/)
 
 <!-- ## Sobre mim
 Desenvolvedor e instrutor PHP, formado em Sistemas de Informção, trabalhando com desenvolvimento há cerca de 3 anos. Sempre tentando se manter atualizado sobre novas tecnologias. -->
 
-## Formação Acadêmica
+## Formação Acadêmica  
 
 * Sistemas de Informação - [UEMG Campus Passos/MG](http://www.uemg.br/cursos.php?id=140) - 2013-2016
 * Técnico em Informática - IFSuldeMinas Campus Passos/MG - 2011

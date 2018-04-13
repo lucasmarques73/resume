@@ -4,7 +4,6 @@
   "description": "My resume",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "to-html": "markdown-html README.md -o index.html",
     "to-pdf": "mdpdf README.md",
     "build": "npm run to-html && npm run to-pdf "

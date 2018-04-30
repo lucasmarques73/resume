@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "to-html": "markdown-html -s style.css README.md -o index.html",
-    "to-pdf": "cv2pdf --css=style.css README.md",
-    "build": "npm run to-html && npm run to-pdf"
+    "build": "npm run to-html"
   },
   "repository": {
     "type": "git",
@@ -16,7 +15,6 @@
   "author": "Lucas Marques <lucasmarques73@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "cv2pdf": "^1.0.1",
     "husky": "^0.14.3",
     "markdown-html": "0.0.8"
   },

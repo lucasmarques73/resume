@@ -4,184 +4,201 @@
 		<meta charset="utf-8" />
 		<title>Lucas César Marques</title>
 		<style>
-			/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+			/* BASED ON https://github.com/jasonm23/markdown-css-themes */
+/* https://github.com/jasonm23/markdown-css-themes/blob/2bab19caff1590ede65821cedd5cd1ac4d63233d/markdown5.css */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-sup {
-   vertical-align: super;
-   font-size: smaller;
+body{
+  margin: 0 auto;
+  background-color:white;
+  font-family:Georgia, Palatino, serif;
+  color: #333333; /* dark gray not black */
+  line-height: 1;
+  max-width: 800px;
+  padding: 30px;
+  font-size: 18px;
 }
 
-sub {
-  vertical-align: sub;
-  font-size: smaller;
+p {
+  line-height: 150%;
+  max-width: 960px;
+  font-weight: 400;
+  color: #333333;
 }
 
-/* Generic styles */
-body {
-	background: #f5f5f5;
-  color: #222;
-  font-family: 'Palatino Linotype','Book Antiqua',Palatino,FreeSerif,serif;
-  font-size: 16px;
-  margin: 0;
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+}
+
+h2, h3, h4, h5, p {
+  margin-bottom: 25px;
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6,
-ul, ol,
-p,
-code, pre,
-hr {
-	line-height: 1.5em;
-	margin: 1.5em 0 0.5em 0;
-}
-
-*:first-child {
-	margin-top: 0;
-}
-
-/* Headers */
-h1, h2, h3, h4, h5, h6 {
-	font-weight: bold;
-}
-
 h1 {
-	font-size: 3.5em;
+  margin-bottom: 10px;
+  font-size:300%;
+  padding: 0px;
+  font-variant:small-caps;
 }
 
 h2 {
-	font-size: 2.5em;
+  font-size:150%;
 }
-
 h3 {
-	font-size: 2em;
+  font-size:120%;
 }
-
 h4 {
-	font-size: 1.5em
+  font-size:100%;
+  font-variant:small-caps;
 }
-
 h5 {
-	font-size: 1.2em;
+  font-size:80%;
+  font-weight: 100;
 }
-
 h6 {
-	font-size: 1em;
+  font-size:80%;
+  font-weight: 100;
+  color:red;
+  font-variant:small-caps;
 }
 
-/* Lists */
+a {
+  color: grey;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+a:hover {
+  color: green;
+}
+
 ul, ol {
-	padding-left: 2em;
+  padding: 0;
+  margin: 0px 0px 0px 50px;
 }
-
 ul {
-	list-style-type: disc;	
+  list-style-type: square;
+  list-style-position: inside;
 }
 
-ol {
-	list-style-type: decimal;
+li {
+  line-height:150%;
+}
+li ul {
+  margin-left: 24px;
 }
 
-/* Code and pre */
-code, pre {
-	font-family: "Bitstream Vera Sans Mono", "Courier", monospace;
+pre {
+  padding: 0px 24px;
+  max-width: 800px;
+  white-space: pre-wrap;
 }
 code {
-	background: none repeat scroll 0 0 #F8F8FF;
-  border: 1px solid #DEDEDE;
-  border-radius: 3px 	;
-  padding: 0 0.2em;
+  font-family: Consolas, Monaco, Andale Mono, monospace;
+  line-height: 1.5;
+  font-size: 13px;
 }
-pre {
-	border-left: 5px solid #eee;
-	margin-left: 2em;	
-	padding-left: 1em;
+aside {
+  display: block;
+  float: right;
+  width: 390px;
 }
-pre > code {
-	background: transparent;
-	border: none;
-	padding: 0;
+blockquote {
+  border-left:.5em solid #eee;
+  padding: 0 1em;
+  margin-left:0;
+  max-width: 476px;
+}
+blockquote  cite {
+  line-height:20px;
+  color:#bfbfbf;
+}
+blockquote cite:before {
+  content: '\2014 \00A0';
 }
 
-/* Links */
+blockquote p {
+  color: #666;
+  max-width: 460px;
+}
+hr {
+    text-align: left;
+    margin: 0 auto 0 0;
+    color: #999;
+}
+
+
+
+/* CUSTOM */
+
+body {
+  height: 100%;
+  font-size: 14px;
+}
+
+img {
+  float: right;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+blockquote {
+  max-width: none;
+}
+blockquote p {
+  max-width: none;
+}
+
 a {
-  color: #261A3B;
+  color: inherit;
 }
 
-a:visited {
-  color: #261A3B;
+h2, h3, p {
+  margin-bottom: 15px;
+}
+h3 code {
+  float: right;
+  font-family: inherit;
+}
+h3 em {
+  font-size: .7em;
+  margin-left: 10px;
 }
 
-/* Inlines */
-strong {
-	font-weight: bold;
+table {
+  border-collapse: collapse;
+  font-size: 1em;
+}
+tr:not(:first-child) {
+  border-top: 1px solid;
+}
+th,
+td {
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+th:not(:first-child),
+td:not(:first-child) {
+  border-left: 1px solid;
+}
+th {
+  font-style: italic;
+  font-weight: initial;
 }
 
-em {
-	font-style: italic;
+/* the footer with the page numbers */
+span.page-footer {
+  float: right;
+  font-family: Georgia;
+  font-size: .8em;
 }
-
-/* Container */
-.container {
-	background: #FFF;
-	padding: 30px 50px;
-	margin: 0 auto;
-	width: 850px;
-}
-
 		</style>
 	</head>
 	<body>
 		<div class="container">
 			<h1 id="lucas-c-sar-marques">Lucas César Marques</h1>
-<p><strong>Localização:</strong> São Paulo - São Paulo<br><strong>Telefone:</strong> (35) 99257-6040<br><strong>Email:</strong> <a href="mailto:lucasmarques73@hotmail.com">lucasmarques73@hotmail.com</a><br><strong>Skype:</strong> lucas.marques73<br><strong>Github:</strong> <a href="https://github.com/lucasmarques73">lucasmarques73</a> || <a href="https://github.com/lucasmarques4linux">lucasmarques4linux</a><br><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/lucasmarques73/">lucasmarques73</a></p>
-<!-- ## Sobre mim
-Desenvolvedor e instrutor PHP, formado em Sistemas de Informção, trabalhando com desenvolvimento há cerca de 3 anos. Sempre tentando se manter atualizado sobre novas tecnologias. -->
+<p><strong>Localização:</strong> São Paulo - São Paulo<br><strong>Telefone:</strong> (35) 99257-6040<br><strong>Email:</strong> <a href="mailto:lucasmarques73@hotmail.com">lucasmarques73@hotmail.com</a><br><strong>Skype:</strong> lucas.marques73<br><strong>Github:</strong> <a href="https://github.com/lucasmarques73">lucasmarques73</a> || <a href="https://github.com/lucasmarques4linux">lucasmarques4linux</a><br><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/lucasmarques73/">lucasmarques73</a><br><strong>Site:</strong> <a href="https://www.lucasmarques73.com.br">lucasmarques73.com.br</a></p>
 <h2 id="forma-o-acad-mica">Formação Acadêmica</h2>
 <ul>
 <li>Sistemas de Informação - <a href="http://www.uemg.br/cursos.php?id=140">UEMG Campus Passos/MG</a> - 2013-2016</li>

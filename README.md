@@ -5,10 +5,8 @@
 **Email:** lucasmarques73@hotmail.com  
 **Skype:** lucas.marques73  
 **Github:** [lucasmarques73](https://github.com/lucasmarques73) || [lucasmarques4linux](https://github.com/lucasmarques4linux)  
-**LinkedIn:** [lucasmarques73](https://www.linkedin.com/in/lucasmarques73/)
-
-<!-- ## Sobre mim
-Desenvolvedor e instrutor PHP, formado em Sistemas de Informção, trabalhando com desenvolvimento há cerca de 3 anos. Sempre tentando se manter atualizado sobre novas tecnologias. -->
+**LinkedIn:** [lucasmarques73](https://www.linkedin.com/in/lucasmarques73/)  
+**Site:** [lucasmarques73.com.br](https://www.lucasmarques73.com.br)
 
 ## Formação Acadêmica  
 

@@ -4,9 +4,9 @@
   "description": "My resume",
   "main": "index.js",
   "scripts": {
-    "to-html": "markdown-html README.md -o index.html",
-    "to-pdf": "mdpdf README.md",
-    "build": "npm run to-html && npm run to-pdf "
+    "to-html": "markdown-html -s style.css README.md -o index.html",
+    "to-pdf": "cv2pdf --css=style.css README.md",
+    "build": "npm run to-html && npm run to-pdf"
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,9 @@
   "author": "Lucas Marques <lucasmarques73@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "husky": "^0.15.0-rc.8",
-    "markdown-html": "0.0.8",
-    "mdpdf": "^1.6.0"
+    "cv2pdf": "^1.0.1",
+    "husky": "^0.14.3",
+    "markdown-html": "0.0.8"
   },
   "husky": {
     "hooks": {

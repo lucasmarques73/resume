@@ -15,12 +15,6 @@
   "author": "Lucas Marques <lucasmarques73@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "husky": "^0.14.3",
     "markdown-html": "0.0.8"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run build && git add --all"
-    }
   }
 }

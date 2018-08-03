@@ -1,7 +1,7 @@
 # Lucas César Marques
 
 **Localização:** São Paulo - São Paulo  
-**Telefone:** (35) 99257-6040  
+**Telefone:** (35) 99257-6040 | (11)  99104-6614
 **Email:** lucasmarques73@hotmail.com  
 **Skype:** lucas.marques73  
 **Github:** [lucasmarques73](https://github.com/lucasmarques73) || [lucasmarques4linux](https://github.com/lucasmarques4linux)  

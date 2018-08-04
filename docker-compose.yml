@@ -1,19 +1,36 @@
 version: "3"
+
+networks:
+  proxy:
+    external: true
+  internal:
+    external: false
+
 services:
   web:
     image: "nginx:1.15.2-alpine"
     volumes:
       - ".:/var/www/html"
       - "./nginx/:/etc/nginx/conf.d"
-    ports:
-      - "80:80"
-      - "443:443"
+    # ports:
+    #   - "80:80"
+    #   - "443:443"
     depends_on:
       - node
+    labels:
+      - traefik.backend=web
+      - traefik.frontend.rule=Host:resume.lucasmarques73.com.br
+      - traefik.docker.network=proxy
+      - traefik.port=80
+    networks: 
+      - internal
+      - proxy
   node:
     image: "node:8.11.3-alpine"
     volumes:
       - ".:/var/www/html"
     working_dir: /var/www/html
     entrypoint: /bin/sh /var/www/html/build.sh
+    labels:
+      - traefik.enable=false
 

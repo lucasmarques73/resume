@@ -18,6 +18,7 @@ services:
     depends_on:
       - node
     labels:
+      - traefik.enable=true
       - traefik.backend=web
       - traefik.frontend.rule=Host:resume.lucasmarques73.com.br
       - traefik.docker.network=proxy

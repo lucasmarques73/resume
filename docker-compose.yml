@@ -7,19 +7,16 @@ networks:
     external: false
 
 services:
-  web:
+  resume:
     image: "nginx:1.15.2-alpine"
     volumes:
       - ".:/var/www/html"
       - "./nginx/:/etc/nginx/conf.d"
-    # ports:
-    #   - "80:80"
-    #   - "443:443"
     depends_on:
       - node
     labels:
       - traefik.enable=true
-      - traefik.backend=web
+      - traefik.backend=resume
       - traefik.frontend.rule=Host:resume.lucasmarques73.com.br
       - traefik.docker.network=proxy
       - traefik.port=80

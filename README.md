@@ -58,7 +58,7 @@
 **Membro** CA Itbit UEMG - Janeiro 2016 - Dezembro 2016
 > Auxiliando na definição de eventos, palestras e reuniões.
 
-**Volunteer** [Training Center](https://trainingcenter.io/) - Maio 2017 - Presente
+**Volunteer** [Training Center](https://trainingcenter.io/) - Maio 2017 - Julho 2018
 > Divulgando o projeto, sempre buscando novos membros para a comunidade, participando dos canais no slack e grupos de estudos.
 
 ## Certificados

@@ -41,7 +41,7 @@
 
 **Desenvolvedor e Instrutor PHP** - [4Linux](https://www.4linux.com.br/) - Setembro 2017 - Setembro 2018
 > Atuando principalmente no CRM da empresa, desenvolvendo melhorias, corrigindo *BUGS* e atendendo aos usuários. Com o uso de SCRUM e sprints quinzenais, onde nos reunimos, coletamos feedbacks sobre o último sprint, pontuamos as novas estória e começamos um novo sprint.
-> Ministrando os cursos da Formação PHP da empresa, com conteúdos do básico ao avançado.
+> Ministrando os cursos da Formação PHP da empresa, com conteúdos do básico ao avançado. Chegando a ministrar o Curso de PHP Orientado a Objetos para a prefeitura de Porto Velho/ RO.
 
 **Desenvolvedor Web FullStack** - [AQUINO - Indústria de Software](https://www.aquino.ind.br/) - Março 2017 - Outubro 2017
 > Desenvolvimento Web utilizando PHP, Laravel, Javascript, Angular, Git.

@@ -13,7 +13,7 @@
 * [lucasmarques4linux](https://github.com/lucasmarques4linux)
 
 **LinkedIn:** [lucasmarques73](https://www.linkedin.com/in/lucasmarques73/)  
-**Site:** [lucasmarques73.com.br](https://www.lucasmarques73.com.br)
+**Site:** [lucasmarques.dev](https://www.lucasmarques.dev)
 
 ## Formação Acadêmica  
 

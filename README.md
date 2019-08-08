@@ -3,7 +3,6 @@
 **Localização:** São Paulo - SP
 
 **Telefone:** 
-* (35) 99257-6040 
 * (11)  99104-6614  
 
 **Email:** lucasmarques73@hotmail.com  
@@ -35,7 +34,9 @@
 
 ## Experiência Profissional
 
-**Engenheiro de Software** - [RedVentures](https://www.redventures.com/) - Setembro 2018 - Presente
+**Pessoa Desenvolvedora de Software** - [Lambda3](https://www.lambda3.com.br/) - Julho 2019 - Presente
+
+**Engenheiro de Software** - [RedVentures](https://www.redventures.com/) - Setembro 2018 - Julho 2019
 >Desenvolvimento de APIs, Lambdas Functions em Golang e NodeJS, usando AWS como infraestrutura, utilizando recursos como EC2, ECS, Lambdas, Banco de Dados Mysql e Redis.
 >Integração com APIs de parceiros.
 

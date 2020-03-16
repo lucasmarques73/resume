@@ -35,6 +35,10 @@
 ## Experiência Profissional
 
 **Pessoa Desenvolvedora de Software** - [Lambda3](https://www.lambda3.com.br/) - Julho 2019 - Presente
+>Desenvolvimento de projeto utilizando NodeJS, Electron, React, Redux como desktop front-end com testes unitários e e2e.  
+Para o back-end dotnet core com testes unitários e integração.  
+CI com gitlab.  
+Métodos agéis usando Scrum.
 
 **Engenheiro de Software** - [RedVentures](https://www.redventures.com/) - Setembro 2018 - Julho 2019
 >Desenvolvimento de APIs, Lambdas Functions em Golang e NodeJS, usando AWS como infraestrutura, utilizando recursos como EC2, ECS, Lambdas, Banco de Dados Mysql e Redis.

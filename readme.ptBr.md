@@ -26,6 +26,15 @@ Adepto a práticas do TDD, criando testes unitários e de integração, tanto pa
 * Sistemas de Informação - [UEMG Campus Passos/MG](http://www.uemg.br/graduacao/cursos2/course/sistemas-de-informacao) - 2013-2016
 * Técnico em Informática - [IFSuldeMinas](https://www.pas.ifsuldeminas.edu.br/)  Campus Passos/MG - 2011
 
+## Habilidades
+
+**Back-end** - NodeJS, Golang, C# PHP  
+**Front-end** - React, Redux  
+**Database** - Postgres, MySQL/MariaDB  
+**Infra** - AWS, SQS, SNS, Lambdas Functions, Docker, Terraform  
+**Devops** - Jenkins, Github Actions  
+**Tests** - TDD, Jest, React Testing Library  
+**Agile** - Scrum, Kanban
 
 ## Experiência Profissional
 

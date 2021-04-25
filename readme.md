@@ -26,6 +26,16 @@ Adept to TDD, creating unit and integration tests, as for back-end as front-end.
 * Information System - [State University of Minas Gerais](http://www.uemg.br/graduacao/cursos2/course/sistemas-de-informacao) - 2013-2016
 * Computer Technician - [Federal Institute South of Minas Gerais](https://www.pas.ifsuldeminas.edu.br/) 2011
 
+## Skills
+
+**Back-end** - NodeJS, Golang, C# PHP  
+**Front-end** - React, Redux  
+**Database** - Postgres, MySQL/MariaDB  
+**Infra** - AWS, SQS, SNS, Lambdas Functions, Docker, Terraform  
+**Devops** - Jenkins, Github Actions  
+**Tests** - TDD, Jest, React Testing Library  
+**Agile** - Scrum, Kanban
+
 ## Experience
 
 **Software Developer**  

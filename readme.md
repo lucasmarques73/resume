@@ -23,7 +23,7 @@ Adept to TDD, creating unit and integration tests, as for back-end as front-end.
 
 ## Education 
 
-* Information System - [State University of Minas Gerais](http://www.uemg.br/graduacao/cursos2/course/sistemas-de-informacao) - 2013-2016
+* Computer Information Systems, B.S. - [State University of Minas Gerais](http://www.uemg.br/graduacao/cursos2/course/sistemas-de-informacao) - 2013-2016
 * Computer Technician - [Federal Institute South of Minas Gerais](https://www.pas.ifsuldeminas.edu.br/) 2011
 
 ## Skills
@@ -69,4 +69,4 @@ Integration with third-party APIs.
 Sep 2017 - Sep 2018  
 São Paulo, Brazil
 > Solving Bugs, improving some features, and helping users in the inside project.  
-> Instructor of all PHP courses as beginners as advanced content.
+Instructor of all PHP courses as beginners as advanced content.

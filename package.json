@@ -4,7 +4,9 @@
   "description": "My resume",
   "main": "index.js",
   "scripts": {
-    "to-html": "markdown-html -s css/style.css README.md -o index.html",
+    "to-html:pt": "markdown-html -s css/style.css readme.ptBr.md -o index.pt.html",
+    "to-html:en": "markdown-html -s css/style.css readme.md -o index.en.html",
+    "to-html": "npm run to-html:pt && npm run to-html:en",
     "build": "npm run to-html"
   },
   "repository": {

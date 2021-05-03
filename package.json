@@ -7,8 +7,8 @@
     "to-html:pt": "markdown-html -s css/style.css readme.ptBr.md -o index.pt.html",
     "to-html:en": "markdown-html -s css/style.css readme.md -o index.en.html",
     "to-html": "npm run to-html:pt && npm run to-html:en",
-    "to-pdf:pt": "cat readme.ptBr.md | md-to-pdf > index.pt.pdf",
-    "to-pdf:en": "cat readme.md | md-to-pdf > index.en.pdf",
+    "to-pdf:pt": "cat readme.ptBr.md | md-to-pdf > lucas-marques.pt.pdf",
+    "to-pdf:en": "cat readme.md | md-to-pdf > lucas-marques.en.pdf",
     "to-pdf": "npm run to-pdf:pt && npm run to-pdf:en",
     "build": "npm run to-html && npm run to-pdf"
   },

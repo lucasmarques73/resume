@@ -23,6 +23,6 @@
     "markdown-html": "0.0.8"
   },
   "dependencies": {
-    "md-to-pdf": "^3.3.2"
+    "md-to-pdf": "^5.0.0"
   }
 }

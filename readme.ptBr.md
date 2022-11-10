@@ -44,7 +44,8 @@ Jul 2020 - Presente
 São Paulo - SP
 
 > A Gupy é uma das empresas de tecnologia para recursos humanos que mais cresce no Brasil. Oferecemos uma plataforma online para as organizações que procuram eficiência ao contratar e admitir talentos.  
-> Através de soluções e tecnologias inovadoras, que incluem inteligência artificial, testes online, integração com outros sistemas e uma incrível fluidez, ajudamos empresas de diferentes portes a alavancar seus resultados de recrutamento, seleção e admissão de talentos.  
+> Através de soluções e tecnologias inovadoras, que incluem inteligência artificial, testes online, integração com outros sistemas e uma incrível fluidez, ajudamos empresas de diferentes portes a alavancar seus resultados de recrutamento, seleção e admissão de talentos.
+
 > Pessoa desenvolvedora de Software no Time Comunicação que é responsável pelos envios de email, agendamentos, entre outras coisas.  
 > Utilizando tecnologias como Terraform, Lambdas, DynamoDb, DynamoDb Streams, SQS e SNS na AWS. NodeJS, Typescript, React, Testes Unitários e Testes de Integração no desenvolvimento e para CI/CD foi utilizado o Jenkins.
 
@@ -56,6 +57,7 @@ São Paulo - SP
 > A Lambda3 é uma empresa de consultoria em processos de produção, treinamento e desenvolvimento de software focada em conceitos e metodologias ágeis, buscando o máximo de retorno sobre o investimento do cliente.  
 > Eu trabalhei no desenvolvimento de uma aplicação desktop, onde o usuário precisava gravar a webcam.
 > Durante a gravação é feito o upload do vídeo para a nuvem, é possível adicionar marcações, se a internet cair durante a gravação o vídeo é armazenado localmente e fazemos o upload no final.
+
 > Desenvolvimento de projeto utilizando NodeJS, Electron, React, Redux como desktop front-end com testes unitários e e2e.  
 > Para o back-end dotnet core com testes unitários e integração.  
 > CI com gitlab.  
@@ -67,7 +69,8 @@ Setembro 2018 - Julho 2019
 São Paulo - SP
 
 > A RedVentures é uma empresa norte-americana com escritórios e algumas marcas no Brasil.  
-> Trabalhei na IQ Contas, o aplicativo era responsável por gerenciar as contas mensais do usuário, criamos alguns robôs para acessar as plataformas e armazenar o valor das contas, agrupar e depois cobrar no cartão de crédito do usuário, para que ele possa acumular pontos e milhas.  
+> Trabalhei na IQ Contas, o aplicativo era responsável por gerenciar as contas mensais do usuário, criamos alguns robôs para acessar as plataformas e armazenar o valor das contas, agrupar e depois cobrar no cartão de crédito do usuário, para que ele possa acumular pontos e milhas.
+
 > Desenvolvimento de APIs, Lambdas Functions em Golang e NodeJS, usando AWS como infraestrutura, utilizando recursos como EC2, ECS, Lambdas, Banco de Dados Mysql e Redis.  
 > Integração com APIs de parceiros.
 
@@ -76,6 +79,7 @@ São Paulo - SP
 Setembro 2017 - Setembro 2018  
 São Paulo - SP
 
-> A 4Linux é uma empresa de prestação de serviços nas áreas de Cursos, Consultoria, Suporte e Desenvolvimento de softwares baseados em Linux e softwares livre com ênfase nos assuntos relacionados a infra-estrutura e segurança.  
+> A 4Linux é uma empresa de prestação de serviços nas áreas de Cursos, Consultoria, Suporte e Desenvolvimento de softwares baseados em Linux e softwares livre com ênfase nos assuntos relacionados a infra-estrutura e segurança.
+
 > Atuando principalmente no CRM da empresa, desenvolvendo melhorias, corrigindo _BUGS_ e atendendo aos usuários. Com o uso de SCRUM e sprints quinzenais, onde nos reunimos, coletamos feedbacks sobre o último sprint, pontuamos as novas estória e começamos um novo sprint.  
 > Ministrando os cursos da Formação PHP da empresa, com conteúdos do básico ao avançado. Chegando a ministrar o Curso de PHP Orientado a Objetos para a prefeitura de Porto Velho/ RO.

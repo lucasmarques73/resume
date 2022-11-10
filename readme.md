@@ -57,7 +57,8 @@ São Paulo, Brazil
 
 > Lambda3 is a consulting company in production processes, training and software development focused on agile concepts and methodologies, seeking maximum return on the client's investment.  
 > I worked on developing a desktop application, where the user needed to record the webcam.
-> During recording, the video is uploaded to the cloud, it is possible to add tags, if the internet goes down during recording the video is stored locally and we upload it at the end.  
+> During recording, the video is uploaded to the cloud, it is possible to add tags, if the internet goes down during recording the video is stored locally and we upload it at the end.
+
 > Built a Desktop App using Electron, NodeJS, React, Redux, Unit Tests, E2e Tests.
 > Back-end with C# .NET, Unit Tests, and Integration Tests.  
 > CI/CD as made by Gitlab.  
@@ -69,7 +70,8 @@ Sep 2018 - Jul 2019
 São Paulo, Brazil
 
 > RedVentures is a US-based company with offices and some brands in Brazil.  
-> I worked for IQ Contas, the application was responsible for managing the user's monthly bills, we created some robots to access the platforms and store the value of the bills, group and then charge the user's credit card, so he can collect points and miles.  
+> I worked for IQ Contas, the application was responsible for managing the user's monthly bills, we created some robots to access the platforms and store the value of the bills, group and then charge the user's credit card, so he can collect points and miles.
+
 > Back-end Engineer using Golang and NodeJS to create APIs and Lambdas Functions.
 > AWS and Terraform as infrastructure.  
 > MySQL and Redis as databases.  
@@ -80,6 +82,7 @@ São Paulo, Brazil
 Sep 2017 - Sep 2018  
 São Paulo, Brazil
 
-> 4Linux is a service provider in the areas of Courses, Consulting, Support and Development of software based on Linux and free software with emphasis on issues related to infrastructure and security.  
+> 4Linux is a service provider in the areas of Courses, Consulting, Support and Development of software based on Linux and free software with emphasis on issues related to infrastructure and security.
+
 > Solving Bugs, improving some features, and helping users in the inside project.  
 > Instructor of all PHP courses as beginners as advanced content.

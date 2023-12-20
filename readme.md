@@ -23,6 +23,7 @@ Adept to TDD, creating unit and integration tests, as for back-end as front-end.
 
 ## Education
 
+- Graduate course in Web Development, Information Technology - [Federal Institute South of Minas Gerais](https://www.pas.ifsuldeminas.edu.br/) 2023
 - Computer Information Systems, B.S. - [State University of Minas Gerais](http://www.uemg.br/graduacao/cursos2/course/sistemas-de-informacao) - 2013-2016
 - Computer Technician - [Federal Institute South of Minas Gerais](https://www.pas.ifsuldeminas.edu.br/) 2011
 

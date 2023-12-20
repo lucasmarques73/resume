@@ -23,7 +23,8 @@ Adepto a práticas do TDD, criando testes unitários e de integração, tanto pa
 
 ## Formação Acadêmica
 
-- Sistemas de Informação - [UEMG Campus Passos/MG](http://www.uemg.br/graduacao/cursos2/course/sistemas-de-informacao) - 2013-2016
+- Pós Graduação em Desenvolvimento Web - [IFSuldeMinas](https://www.pas.ifsuldeminas.edu.br/) Campus Passos/MG - 2023
+- Graduação em Sistemas de Informação - [UEMG Campus Passos/MG](http://www.uemg.br/graduacao/cursos2/course/sistemas-de-informacao) - 2013-2016
 - Técnico em Informática - [IFSuldeMinas](https://www.pas.ifsuldeminas.edu.br/) Campus Passos/MG - 2011
 
 ## Habilidades

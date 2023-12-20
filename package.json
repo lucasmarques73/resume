@@ -20,9 +20,7 @@
   "author": "Lucas Marques <lucasmarques73@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "markdown-html": "0.0.8"
-  },
-  "dependencies": {
-    "md-to-pdf": "^5.0.0"
+    "markdown-html": "0.0.8",
+    "md-to-pdf": "^5.2.4"
   }
 }

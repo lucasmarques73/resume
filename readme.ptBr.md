@@ -1,6 +1,6 @@
 # Lucas Cesar Marques
 
-**Localização:** São Paulo - SP  
+**Localização:** Passos, Minas Gerais - Remote  
 **Telefone:** (11) 99104-6614  
 **Email:** lucasmarques73@hotmail.com  
 **Github:** [lucasmarques73](https://github.com/lucasmarques73)  
@@ -9,17 +9,10 @@
 
 ## Sobre mim
 
-Desenvolvedor de Software com conhecimento em diversas linguagens de programação, atualmente com foco no ecossistema Javascript utilizando React e NodeJS.
-
-Atualmente trabalhando em projeto web no desenvolvimento de APIs, Processos Assíncronos utilizando sistemas de notificação e mensageiria, e também front-end.
-
-Conhecimento também em metodologias ágeis como Scrum, Kanban, integração contínua e entrega contínua (CI/CD).
-
-Uma cultura de feedbacks é a melhor maneira de desenvolvimento pessoal.
-
-Atuação em projetos como Full Stack Developer, sendo também responsável pela criação de pipelines para entrega contínua.
-
-Adepto a práticas do TDD, criando testes unitários e de integração, tanto para back-end quanto para front-end.
+Desenvolvedor de Software com experiência em diversas linguagens de programação, atualmente focado no ecossistema JavaScript, utilizando React e Node.js.  
+Atuo no desenvolvimento de aplicações web, incluindo criação de APIs, processamento assíncrono com sistemas de notificação e mensageiria, além do front-end.  
+Tenho domínio de metodologias ágeis como Scrum e Kanban, bem como de práticas de Integração e Entrega Contínuas (CI/CD).  
+Sou um defensor de uma cultura de feedback como ferramenta essencial para o crescimento pessoal e profissional.
 
 ## Formação Acadêmica
 
@@ -29,58 +22,45 @@ Adepto a práticas do TDD, criando testes unitários e de integração, tanto pa
 
 ## Habilidades
 
-**Back-end** - NodeJS, Golang, C# PHP  
-**Front-end** - React, Redux  
+**Back-end** - NodeJS with NestJS, Express and Fastify  
+**Front-end** - React, Redux, Tanstack  
 **Database** - Postgres, MySQL/MariaDB  
 **Infra** - AWS, SQS, SNS, Lambdas Functions, Docker, Terraform  
-**Devops** - Jenkins, Github Actions  
-**Tests** - TDD, Jest, React Testing Library  
+**Devops** - Jenkins, Github Actions, Gitlab, CircleCI  
+**Tests** - TDD, Jest, Vitest, React Testing Library, Unit and Integration tests  
 **Agile** - Scrum, Kanban
 
 ## Experiência Profissional
 
+**Senior Software Developer**  
+[dsm-firmenich](https://www.dsm-firmenich.com)  
+Setembro 2025 - Presente
+Passos, Minas Gerais - Remote
+
 **Desenvolvedor de Software**  
 [Gupy](https://www.gupy.io/)  
-Jul 2020 - Presente  
+Julho 2020 - Agosto 2025  
 São Paulo - SP
 
-> A Gupy é uma das empresas de tecnologia para recursos humanos que mais cresce no Brasil. Oferecemos uma plataforma online para as organizações que procuram eficiência ao contratar e admitir talentos.  
-> Através de soluções e tecnologias inovadoras, que incluem inteligência artificial, testes online, integração com outros sistemas e uma incrível fluidez, ajudamos empresas de diferentes portes a alavancar seus resultados de recrutamento, seleção e admissão de talentos.
-
-> Pessoa desenvolvedora de Software no Time Comunicação que é responsável pelos envios de email, agendamentos, entre outras coisas.  
-> Utilizando tecnologias como Terraform, Lambdas, DynamoDb, DynamoDb Streams, SQS e SNS na AWS. NodeJS, Typescript, React, Testes Unitários e Testes de Integração no desenvolvimento e para CI/CD foi utilizado o Jenkins.
+> Desenvolvi uma solução para gerenciar e-mails e mensagens no WhatsApp, processando mais de 800k mensagens por dia, utilizando AWS (Lambdas, SQS, SNS), NodeJS e TypeScript, além de implementar pipelines CI/CD com Jenkins e testes unitários, garantindo a alta disponibilidade e escalabilidade do sistema.
 
 **Desenvolvedor de Software**  
 [Lambda3](https://www.lambda3.com.br/)  
 Julho 2019 - Julho 2020  
 São Paulo - SP
 
-> A Lambda3 é uma empresa de consultoria em processos de produção, treinamento e desenvolvimento de software focada em conceitos e metodologias ágeis, buscando o máximo de retorno sobre o investimento do cliente.  
-> Eu trabalhei no desenvolvimento de uma aplicação desktop, onde o usuário precisava gravar a webcam.
-> Durante a gravação é feito o upload do vídeo para a nuvem, é possível adicionar marcações, se a internet cair durante a gravação o vídeo é armazenado localmente e fazemos o upload no final.
-
-> Desenvolvimento de projeto utilizando NodeJS, Electron, React, Redux como desktop front-end com testes unitários e e2e.  
-> Para o back-end dotnet core com testes unitários e integração.  
-> CI com gitlab.  
-> Métodos agéis usando Scrum.
+> Desenvolvi um aplicativo desktop com Electron, NodeJS, React e Redux, que grava vídeos localmente e sincroniza com a nuvem, mesmo em condições de conexão instável, utilizando testes unitários e integração contínua com GitLab CI/CD, resultando em uma experiência confiável para os usuários, mesmo em conexões limitadas.
 
 **Engenheiro de Software**  
 [RedVentures](https://www.redventures.com/)  
 Setembro 2018 - Julho 2019  
 São Paulo - SP
 
-> A RedVentures é uma empresa norte-americana com escritórios e algumas marcas no Brasil.  
-> Trabalhei na IQ Contas, o aplicativo era responsável por gerenciar as contas mensais do usuário, criamos alguns robôs para acessar as plataformas e armazenar o valor das contas, agrupar e depois cobrar no cartão de crédito do usuário, para que ele possa acumular pontos e milhas.
-
-> Desenvolvimento de APIs, Lambdas Functions em Golang e NodeJS, usando AWS como infraestrutura, utilizando recursos como EC2, ECS, Lambdas, Banco de Dados Mysql e Redis.  
-> Integração com APIs de parceiros.
+> Criei APIs e funções Lambdas em Golang e NodeJS, configurando infraestrutura com AWS e Terraform, para integrar plataformas de terceiros e automatizar o gerenciamento de contas e pagamentos, utilizando MySQL e Redis, o que simplificou a experiência do usuário e aumentou a retenção de clientes.
 
 **Desenvolvedor e Instrutor PHP**  
 [4Linux](https://www.4linux.com.br/)  
 Setembro 2017 - Setembro 2018  
 São Paulo - SP
 
-> A 4Linux é uma empresa de prestação de serviços nas áreas de Cursos, Consultoria, Suporte e Desenvolvimento de softwares baseados em Linux e softwares livre com ênfase nos assuntos relacionados a infra-estrutura e segurança.
-
-> Atuando principalmente no CRM da empresa, desenvolvendo melhorias, corrigindo _BUGS_ e atendendo aos usuários. Com o uso de SCRUM e sprints quinzenais, onde nos reunimos, coletamos feedbacks sobre o último sprint, pontuamos as novas estória e começamos um novo sprint.  
-> Ministrando os cursos da Formação PHP da empresa, com conteúdos do básico ao avançado. Chegando a ministrar o Curso de PHP Orientado a Objetos para a prefeitura de Porto Velho/ RO.
+> Corrigi erros críticos e melhorei funcionalidades de um projeto baseado em Linux e software livre, além de ministrar treinamentos em PHP para desenvolvedores juniores, resultando em uma equipe mais capacitada e eficiente na resolução de problemas e melhoria contínua do software.

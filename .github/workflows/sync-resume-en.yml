@@ -36,7 +36,9 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+          # Retry install once to handle intermittent npm registry/cache failures on runners.
+          npm ci --no-audit --no-fund || (npm cache clean --force && npm ci --no-audit --no-fund)
 
       - name: Build English resume PDF
         run: npm run to-pdf:en

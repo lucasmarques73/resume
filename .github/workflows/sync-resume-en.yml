@@ -1,0 +1,70 @@
+name: Sync English Resume PDF
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - readme.md
+      - package.json
+      - package-lock.json
+      - css/style.css
+      - .github/workflows/sync-resume-en.yml
+
+permissions:
+  contents: read
+
+env:
+  TARGET_REPOSITORY: lucasmarques73/lucasmarques.dev
+  TARGET_BASE_BRANCH: main
+  TARGET_FILE_PATH: public/assets/resume/lucas-marques.en.pdf
+
+jobs:
+  open-pr-with-updated-resume:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout resume repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build English resume PDF
+        run: npm run to-pdf:en
+
+      - name: Checkout target website repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.TARGET_REPOSITORY }}
+          ref: ${{ env.TARGET_BASE_BRANCH }}
+          token: ${{ secrets.CROSS_REPO_PAT }}
+          path: target-repo
+
+      - name: Copy generated PDF to target repository
+        run: |
+          mkdir -p "target-repo/$(dirname "${TARGET_FILE_PATH}")"
+          cp lucas-marques.en.pdf "target-repo/${TARGET_FILE_PATH}"
+
+      - name: Create pull request in target repository
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.CROSS_REPO_PAT }}
+          path: target-repo
+          branch: chore/update-resume-en-pdf
+          delete-branch: true
+          base: ${{ env.TARGET_BASE_BRANCH }}
+          title: "chore: update English resume PDF"
+          commit-message: "chore: update English resume PDF"
+          body: |
+            Automated update from the resume repository.
+
+            Source workflow: `${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}`

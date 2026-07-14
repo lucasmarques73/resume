@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Checkout resume repository
         uses: actions/checkout@v7
+        with:
+          token: ${{ github.token }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v7
@@ -48,7 +50,7 @@ jobs:
         with:
           repository: ${{ env.TARGET_REPOSITORY }}
           ref: ${{ env.TARGET_BASE_BRANCH }}
-          token: ${{ secrets.CROSS_REPO_PAT }}
+          token: ${{ secrets.CROSS_REPO_PAT || github.token }}
           path: target-repo
 
       - name: Copy generated PDF to target repository
@@ -59,7 +61,7 @@ jobs:
       - name: Create pull request in target repository
         uses: peter-evans/create-pull-request@v8
         with:
-          token: ${{ secrets.CROSS_REPO_PAT }}
+          token: ${{ secrets.CROSS_REPO_PAT || github.token }}
           path: target-repo
           branch: chore/update-resume-en-pdf
           delete-branch: true
